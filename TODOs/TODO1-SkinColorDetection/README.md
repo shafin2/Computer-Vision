@@ -3,6 +3,9 @@
 
 # 🖼️ Todo 1: Skin Color Detection
 
+Slide Name: Fundamentals of Computer Vision
+Slide No: 16
+
 This task detects skin regions in an image using a combination of the **HSV** and **YCbCr** color spaces. The goal is to test the program on both your own and other images for skin detection accuracy.
 
 ## 📋 Description
