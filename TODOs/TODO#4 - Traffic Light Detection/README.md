@@ -45,6 +45,6 @@ process_video_with_matplotlib(video_path)
 
 The output is a real-time display of video frames, where each frame shows the detected traffic light color overlaid on the video.
 
-![Traffic Light Detection](output.mp4)
+![Traffic Light Detection](output.gif)
 
 ---
