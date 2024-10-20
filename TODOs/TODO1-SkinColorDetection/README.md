@@ -15,6 +15,16 @@ This task detects skin regions in an image using a combination of the **HSV** an
 
 Below are sample results showing the original image, HSV mask, YCbCr mask, and the combined result:
 
+With background:
 ![output 1](./images/output1.png)
+
+Without background:
+![output 2](./images/output2.png)
+
+With background:
+![output 3](./images/output3.png)
+
+Without background:
+![output 4](./images/output4.png)
 
 ---

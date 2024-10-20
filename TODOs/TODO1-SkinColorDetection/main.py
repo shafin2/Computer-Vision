@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Step 1: Open a simple image from the specified file
-img = cv2.imread("images/1.jpg")
+img = cv2.imread("images/3.jpg")
 
 # Step 2: Convert the image from BGR (Blue, Green, Red) to HSV (Hue, Saturation, Value) color space
 img_HSV = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
