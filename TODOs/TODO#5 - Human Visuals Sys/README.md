@@ -1,3 +1,4 @@
+
 # Human Visual
 
 This README explores key visual concepts, including why objects appear colorless in moonlight, visual adaptation when moving from bright to dark environments, and resolving power of the human eye and cameras.
@@ -77,7 +78,7 @@ This README explores key visual concepts, including why objects appear colorless
   - Considering the lens focal length and distance, the spatial frequency can be adjusted:
 
   \[
-  \text{Adjusted resolution} = 73.14 / 14.63 \, \text{(based on lens focal length)} \approx 5 \, \text{line pairs/mm}
+  \text{Adjusted resolution} = \frac{73.14}{14.63} \, \approx 5 \, \text{line pairs/mm}
   \]
 
   **Answer:** The camera can resolve **5 line pairs per mm**.
