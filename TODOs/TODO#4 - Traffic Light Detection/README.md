@@ -4,7 +4,7 @@
 # Traffic Light Detection in Video
 
 **Slide Name**: Fundamentals of Computer Vision  
-**Slide No**: 26  
+**Slide No**: 76 
 
 **Exercise**: Detect traffic light colors from video frames and display them in real-time.
 
