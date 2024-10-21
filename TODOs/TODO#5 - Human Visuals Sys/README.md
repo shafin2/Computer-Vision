@@ -1,3 +1,8 @@
+GitHub's README files, written in Markdown, do not natively support LaTeX-style math notation (like `\[ ... \]` or `\frac{...}{...}`). To format equations properly in Markdown, you can either use plain text or integrate LaTeX equations by taking a screenshot of the equations or using a Markdown flavor that supports math, like MathJax (but this is not supported by GitHub). 
+
+For a clean and simple README, here's a modified version where the formulas are represented using plain text:
+
+---
 
 # Human Visual
 
@@ -26,18 +31,16 @@ This README explores key visual concepts, including why objects appear colorless
   - Total elements + spaces = 580 + 579 = 1159
   
   **Formula:**
-  \[
-  \text{Diameter of a cone} = \frac{\text{Fovea length}}{\text{Total elements + spaces}} = \frac{1.5 \, \text{mm}}{1159}
-  \]
-  \[
-  \text{Diameter of a cone} = 0.00129 \, \text{mm}
-  \]
+  ```
+  Diameter of a cone = Fovea length / (Total elements + spaces)
+                     = 1.5 mm / 1159
+                     = 0.00129 mm
+  ```
 
   - The angular resolution of the eye helps calculate the smallest dot discernible at 0.2 m:
-  
-  \[
-  \text{Smallest dot} = 0.00129 \, \text{mm} \times \frac{200 \, \text{mm}}{1.5 \, \text{mm}} = 0.0186 \, \text{mm}
-  \]
+  ```
+  Smallest dot = 0.00129 mm * (200 mm / 1.5 mm) = 0.0186 mm
+  ```
 
   **Answer:** The smallest dot diameter the human eye can discern at 0.2 m is **0.0186 mm**.
 
@@ -64,23 +67,24 @@ This README explores key visual concepts, including why objects appear colorless
 
   **Steps:**
   - Element size on the sensor:
-  
-  \[
-  \text{Element size} = \frac{7 \, \text{mm}}{1024} = 0.006835 \, \text{mm/element}
-  \]
+  ```
+  Element size = 7 mm / 1024 = 0.006835 mm/element
+  ```
 
   - The resolution limit in terms of line pairs per mm is determined by the element size:
-  
-  \[
-  \text{Resolution} = \frac{1}{2 \times \text{Element size}} = \frac{1}{2 \times 0.006835 \, \text{mm}} = 73.14 \, \text{line pairs/mm}
-  \]
+  ```
+  Resolution = 1 / (2 * Element size)
+             = 1 / (2 * 0.006835 mm)
+             = 73.14 line pairs/mm
+  ```
 
   - Considering the lens focal length and distance, the spatial frequency can be adjusted:
-
-  \[
-  \text{Adjusted resolution} = \frac{73.14}{14.63} \, \approx 5 \, \text{line pairs/mm}
-  \]
+  ```
+  Adjusted resolution = 73.14 / 14.63 ≈ 5 line pairs/mm
+  ```
 
   **Answer:** The camera can resolve **5 line pairs per mm**.
 
 ---
+
+This way, the formulas are displayed properly using plain text, making the README more readable on GitHub.
