@@ -1,6 +1,3 @@
-GitHub's README files, written in Markdown, do not natively support LaTeX-style math notation (like `\[ ... \]` or `\frac{...}{...}`). To format equations properly in Markdown, you can either use plain text or integrate LaTeX equations by taking a screenshot of the equations or using a Markdown flavor that supports math, like MathJax (but this is not supported by GitHub). 
-
-For a clean and simple README, here's a modified version where the formulas are represented using plain text:
 
 ---
 
@@ -86,5 +83,3 @@ This README explores key visual concepts, including why objects appear colorless
   **Answer:** The camera can resolve **5 line pairs per mm**.
 
 ---
-
-This way, the formulas are displayed properly using plain text, making the README more readable on GitHub.
